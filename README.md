@@ -18,8 +18,8 @@
 ### 1. Клонування репозиторію:
 
 ```bash
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+git clone https://github.com/JhonnyMahony/schedule_event
+cd schedule_event/mini_app
 ```
 ### 2. Встановлення залежностей:
 
