@@ -20,7 +20,7 @@
 ```bash
 git clone https://github.com/yourusername/your-repo.git
 cd your-repo
-
+```
 ### 2. Встановлення залежностей:
 
 ```bash
@@ -28,10 +28,10 @@ rustup target add wasm32-unknown-unknown
 cargo install trunk
 npm install -D tailwindcss
 npx tailwindcss init
-
+```
 
 ### 3. Збірка та запуск додатка:
 
 ```bash
 trunk serve
-
+```

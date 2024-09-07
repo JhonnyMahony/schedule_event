@@ -1,0 +1,31 @@
+[package]
+name = "mini_app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+yew = { version = "0.21", features = ["csr"] }
+yew-router = "0.18.0"
+yew-hooks = "0.3.1"
+web-sys = { version = "0.3.60", features = [
+    "HtmlInputElement",
+    "HtmlFormElement",
+    "HtmlSelectElement",
+    "HtmlOptionElement",
+    "HtmlTextAreaElement",
+    "Navigator", "MediaQueryList",
+] }
+chrono = { version = "0.4.23", features = ["serde"] }
+gloo = "0.11.0"
+gloo-net = "0.2.5"
+gloo-storage = "0.2.2"
+gloo-file = "0.3.0"
+thiserror = "1.0.37"
+validator = "0.16.0"
+serde = { version = "1.0.149", features = ["derive"] }
+serde_json = "1.0.89"
+wasm-logger = "0.2.0"
+wasm-bindgen-futures = "0.4.33"
+log = "0.4.17"
+uuid = { version = "1.10.0", features = ["v4"] }
+
