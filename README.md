@@ -1,6 +1,6 @@
 # Yew Rust Додаток з Tailwind CSS
 
-Цей проєкт — це веб-додаток, створений за допомогою [Yew](https://yew.rs/), фреймворку на Rust для створення фронтенд веб-додатків, та [Tailwind CSS](https://tailwindcss.com/), CSS фреймворку з утилітарним підходом для стилізації.
+Цей проєкт — це веб-додаток та телеграм бот, створений за допомогою [Yew](https://yew.rs/), фреймворку на Rust для створення фронтенд веб-додатків, та [Tailwind CSS](https://tailwindcss.com/), CSS фреймворку з утилітарним підходом для стилізації. Бот був створений за допомогою С# (Telegram.bot).
 
 ## Особливості
 
@@ -21,7 +21,7 @@
 git clone https://github.com/JhonnyMahony/schedule_event
 cd schedule_event/mini_app
 ```
-### 2. Встановлення залежностей:
+### 2. Встановлення залежностей mini_app:
 
 ```bash
 rustup target add wasm32-unknown-unknown
@@ -30,8 +30,23 @@ npm install -D tailwindcss
 npx tailwindcss init
 ```
 
-### 3. Збірка та запуск додатка:
+### 3. Встановлення залежностей mini_app:
+
+```bash
+dotnet add package telegram.bot 
+dotnet add package system.data.sqlite
+```
+
+### 4. Збірка та запуск додатка mini_app:
 
 ```bash
 trunk serve
 ```
+
+### 5. Збірка та запуск додатка TelegramBot:
+
+```bash
+dotnet run
+```
+
+
