@@ -1,4 +1,4 @@
-# Yew Rust Додаток з Tailwind CSS
+# Yew Rust Додаток з Tailwind CSS та бот С#
 
 Цей проєкт — це веб-додаток та телеграм бот, створений за допомогою [Yew](https://yew.rs/), фреймворку на Rust для створення фронтенд веб-додатків, та [Tailwind CSS](https://tailwindcss.com/), CSS фреймворку з утилітарним підходом для стилізації. Бот був створений за допомогою С# (Telegram.bot).
 
@@ -30,7 +30,7 @@ npm install -D tailwindcss
 npx tailwindcss init
 ```
 
-### 3. Встановлення залежностей mini_app:
+### 3. Встановлення залежностей TelegramBot:
 
 ```bash
 dotnet add package telegram.bot 
